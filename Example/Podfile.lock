@@ -1,0 +1,14 @@
+PODS:
+  - LGBDeviceHardware (0.1.0)
+
+DEPENDENCIES:
+  - LGBDeviceHardware (from `../`)
+
+EXTERNAL SOURCES:
+  LGBDeviceHardware:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGBDeviceHardware: 26e8202641c2c5f27962322aeed5b10858639753
+
+COCOAPODS: 0.39.0

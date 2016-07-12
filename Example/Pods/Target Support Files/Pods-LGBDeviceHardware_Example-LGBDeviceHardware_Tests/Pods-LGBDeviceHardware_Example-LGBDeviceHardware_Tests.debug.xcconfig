@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/LGBDeviceHardware.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "LGBDeviceHardware"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-LGBDeviceHardware_Example-LGBDeviceHardware_Tests
+PODS_ROOT = ${SRCROOT}/Pods

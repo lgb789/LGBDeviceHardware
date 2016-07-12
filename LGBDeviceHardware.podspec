@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LGBDeviceHardware'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of LGBDeviceHardware.'
+  s.summary          = 'detect iphone type'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+detect iphone type (https://www.theiphonewiki.com/wiki/Models)
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/LGBDeviceHardware'
+  s.homepage         = 'https://github.com/lgb789/LGBDeviceHardware'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lgb789' => 'lgb789@126.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/LGBDeviceHardware.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lgb789/LGBDeviceHardware.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'LGBDeviceHardware/Classes/**/*'
   

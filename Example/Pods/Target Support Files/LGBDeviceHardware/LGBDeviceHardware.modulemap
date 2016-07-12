@@ -1,0 +1,6 @@
+framework module LGBDeviceHardware {
+  umbrella header "LGBDeviceHardware-umbrella.h"
+
+  export *
+  module * { export * }
+}

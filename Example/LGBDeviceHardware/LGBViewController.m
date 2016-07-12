@@ -7,6 +7,7 @@
 //
 
 #import "LGBViewController.h"
+#import "LGBDeviceHardware.h"
 
 @interface LGBViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *platforstr = [LGBDeviceHardware platformString];
+    NSString *platform = [LGBDeviceHardware platform];
+    
+    NSLog(@"%@,%@", platforstr, platform);
 }
 
 - (void)didReceiveMemoryWarning

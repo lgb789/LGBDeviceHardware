@@ -4,7 +4,7 @@ target 'LGBDeviceHardware_Example' do
   pod 'LGBDeviceHardware', :path => '../'
 
   target 'LGBDeviceHardware_Tests' do
-    inherit! :search_paths
+    pod 'LGBDeviceHardware', :path => '../'
 
     
   end

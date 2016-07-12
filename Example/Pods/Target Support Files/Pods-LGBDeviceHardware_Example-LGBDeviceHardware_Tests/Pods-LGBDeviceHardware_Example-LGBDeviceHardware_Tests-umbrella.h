@@ -1,0 +1,6 @@
+#import <UIKit/UIKit.h>
+
+
+FOUNDATION_EXPORT double Pods_LGBDeviceHardware_Example_LGBDeviceHardware_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_LGBDeviceHardware_Example_LGBDeviceHardware_TestsVersionString[];
+
