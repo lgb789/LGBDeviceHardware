@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LGBDeviceHardware_Example' do
+  pod 'LGBDeviceHardware', :path => '../'
+
+  target 'LGBDeviceHardware_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
